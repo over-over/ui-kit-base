@@ -1,0 +1,36 @@
+{
+  "name": "tokens",
+  "version": "0.0.1",
+  "description": "Design tokens and variables",
+  "keywords": [
+    "tokens",
+    "variables"
+  ],
+  "author": "over-over <klg.panov@gmail.com>",
+  "homepage": "https://github.com/over-over/ui-kit-base#readme",
+  "license": "ISC",
+  "main": "lib/tokens.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/over-over/ui-kit-base.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/tokens.test.js",
+    "scripts:convert": "tsx ./lib/convert.ts"
+  },
+  "bugs": {
+    "url": "https://github.com/over-over/ui-kit-base/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.6",
+    "tsx": "^4.15.6",
+    "typescript": "^5.4.5"
+  }
+}
