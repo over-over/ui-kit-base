@@ -1,0 +1,32 @@
+{
+  "name": "components",
+  "version": "0.0.1",
+  "description": "Core React components",
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "ui-kit"
+  ],
+  "author": "over-over <klg.panov@gmail.com>",
+  "homepage": "https://github.com/over-over/ui-kit-base#readme",
+  "license": "ISC",
+  "main": "lib/components.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/over-over/ui-kit-base.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/components.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/over-over/ui-kit-base/issues"
+  }
+}
